@@ -11,28 +11,28 @@
 
         <div>
             <p>Имя</p>
-            <input type="text" name="username">
+            <input type="text" name="username" />
         </div>
 
         <div>
             <p>Пароль</p>
-            <input type="password" name="userpass">
+            <input type="password" name="userpass" />
         </div>
 
         <div>
             <p>Телефон</p>
-            <input type="tel" name="userphone">
+            <input type="tel" name="userphone" />
         </div>
 
         <div>
             <p>Пол</p>
 
             <div>
-                <input checked type="radio" name="gender" value="male"> Мужской
+                <input checked type="radio" name="gender" value="male" /> Мужской
             </div>
 
             <div>
-                <input type="radio" name="gender" value="female"> Женский
+                <input type="radio" name="gender" value="female" /> Женский
             </div>
         </div>
 
@@ -40,15 +40,40 @@
             <p>Имущество</p>
 
             <div>
-                <input checked type="checkbox" name="bike"> Велик
+                <input checked type="checkbox" name="bike" /> Велик
             </div>
 
             <div>
-                <input type="checkbox" name="car"> Машина
+                <input type="checkbox" name="car" /> Машина
             </div>
 
             <div>
-                <input disabled type="checkbox" name="house"> Дом
+                <input disabled type="checkbox" name="house" /> Дом
+            </div>
+
+            <div>
+                <p>Дополнительная информация</p>
+                <textarea name="text"></textarea>
+            </div>
+
+            <div>
+                <p>Прикрепить фото</p>
+                <input type="file" />
+            </div>
+
+            <div>
+                <p>Любимый цвет</p>
+                <select name="color" id="">
+                    <option value="red">Красный</option>
+                    <option value="green">Зелёный</option>
+                    <option selected value="yellow">Жёлтый</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Действия</p>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
             </div>
 
         </div>
